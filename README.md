@@ -6,12 +6,14 @@ Bu proje, yazılım mühendisliği disiplinleri temel alınarak geliştirilmiş,
 
 🎯 Projenin Amacı
 
-Bu projenin temel amacı, araç kiralama işletmelerinin operasyonel süreçlerini daha verimli, düzenli ve dijital hale getirmektir. Bu kapsamda:
+Bu projenin temel amacı, araç kiralama işletmelerinin operasyonel süreçlerini dijitalleştirerek daha verimli ve yönetilebilir bir yapı oluşturmaktır.
 
-- Gereksinim Analizi: Kullanıcı ve işletme ihtiyaçlarının detaylı şekilde belirlenmesi  
-- Sistem Tasarımı: Modüler yapı ve veritabanı ilişkilerinin planlanması  
-- V-Modeli Uygulaması: Her geliştirme aşamasının test süreçleriyle doğrulanması (Unit & Integration Testing)  
-- Kullanıcı Deneyimi: Hem müşteri hem de yönetici için kullanıcı dostu arayüz tasarımı  
+Bu kapsamda:
+
+- 📌 Gereksinim Analizi: Kullanıcı ve işletme ihtiyaçlarının detaylı şekilde belirlenmesi  
+- 📌 Sistem Tasarımı: Modüler yapı ve veritabanı ilişkilerinin planlanması  
+- 📌 V-Modeli Uygulaması: Geliştirme aşamalarının test süreçleri ile doğrulanması (Unit & Integration Testing)  
+- 📌 Kullanıcı Deneyimi: Müşteri ve yönetici için modern ve kullanıcı dostu arayüz tasarımı  
 
 ---
 
@@ -19,17 +21,18 @@ Bu projenin temel amacı, araç kiralama işletmelerinin operasyonel süreçleri
 
 ## 👤 Kullanıcı Modülü
 
-- Rezervasyon Yönetimi: Araçların tarih bazlı müsaitlik kontrolü ve kiralama işlemleri  
-- Ödeme Entegrasyonu: Güvenli ödeme simülasyonu ve kart doğrulama sistemi  
-- Geri Bildirim Sistemi: Kiralanan araçlara yorum ve puan verme özelliği  
+- 🚘 Rezervasyon Yönetimi: Araçların tarih bazlı müsaitlik kontrolü ve kiralama işlemleri  
+- 💳 Ödeme Entegrasyonu: Güvenli ödeme simülasyonu ve kart doğrulama sistemi  
+- ⭐ Geri Bildirim Sistemi: Kiralanan araçlara yorum ve puan verme özelliği  
 
 ---
 
 ## 🔐 Yönetici (Admin) Modülü
 
-- Filo Yönetimi: Araç ekleme, silme ve güncelleme işlemleri  
-- Kayıt Yönetimi: Kullanıcı ve sistem verilerinin kontrolü  
-- Operasyon Takibi: Kiralama istatistikleri ve performans analizleri  
+- 🚗 Filo Yönetimi: Araç ekleme, silme ve güncelleme işlemleri  
+- 👥 Kayıt Yönetimi: Kullanıcı ve sistem verilerinin merkezi kontrolü  
+- 📊 Operasyon Takibi: Kiralama istatistikleri ve sistem performans analizleri  
+- 🔍 Detaylı Raporlama: En çok kiralanan araçlar ve gelir analizleri  
 
 ---
 
@@ -48,42 +51,17 @@ Bu projenin temel amacı, araç kiralama işletmelerinin operasyonel süreçleri
 
 💻 Implementasyon Detayları
 
-Proje sadece bir yazılım değil, aynı zamanda bir mühendislik yaklaşımı ile geliştirilmiştir. Katmanlı mimari sayesinde iş mantığı ve kullanıcı arayüzü birbirinden ayrılmıştır.
+Proje katmanlı mimari ile geliştirilmiş olup iş mantığı, veri erişimi ve arayüz katmanları birbirinden ayrılmıştır.
 
-### 📌 Örnek Test Metodu
-
-```csharp
-[TestMethod]
-public void KartDogrula_GecerliBilgiler_TrueDonmeli()
-{
-    // Arrange
-    string kartNo = "1234567812345678";
-    string cvv = "123";
-
-    // Act
-    bool sonuc = OdemeIslemleri.KartDogrula(
-        kartNo,
-        cvv,
-        "1234567812345678",
-        "123"
-    );
-
-    // Assert
-    Assert.IsTrue(sonuc);
-}
-```
-
----
-
-Uygulama içerisinde tüm kritik işlemler unit testler ile doğrulanmakta ve dinamik kaynak yönetimi ile sistem performansı artırılmaktadır.
+Tüm kritik işlemler unit testler ile doğrulanmakta ve sistem güvenilirliği artırılmaktadır.
 
 ---
 
 🚀 Kurulum ve Çalıştırma
 
-1. Projeyi indirip bir klasöre çıkarın  
+1. Projeyi indirip klasöre çıkarın  
 2. `AracKiralamaSistemi.sln` dosyasını Visual Studio ile açın  
-3. `AracK1/Data/SqlHelper.cs` dosyasındaki connection string’i düzenleyin  
+3. `SqlHelper.cs` içindeki connection string’i düzenleyin  
 4. Veritabanını oluşturun (aracKiralamaSistemi)  
 5. Projeyi derleyip F5 ile çalıştırın  
 
@@ -93,13 +71,13 @@ Uygulama içerisinde tüm kritik işlemler unit testler ile doğrulanmakta ve di
 
 ```
 AracKiralamaSistemi-master/
-├── AracK1/               # Ana uygulama (WinForms)
-│   ├── BusinessLogic/    # İş mantığı katmanı
-│   ├── Data/             # Veritabanı erişimi
-│   ├── Forms/            # Arayüz ekranları
-│   ├── Models/           # Veri modelleri
-│   └── Resources/        # Görseller
-├── TestProject1/         # Unit test projesi
+├── AracK1/
+│   ├── BusinessLogic/
+│   ├── Data/
+│   ├── Forms/
+│   ├── Models/
+│   └── Resources/
+├── TestProject1/
 └── AracKiralamaSistemi.sln
 ```
 
