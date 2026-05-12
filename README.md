@@ -96,5 +96,8 @@ Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` 
 
 ## 👩‍💻 Geliştiriciler
 
-Bu proje, **Yazılım Mühendisliği** dersi kapsamında Şilan Pehlivan ve Esranur Avcı tarafından geliştirilmiştir.
+Bu proje, **Yazılım Mühendisliği** dersi kapsamında geliştirilmiştir:
+
+- Şilan Pehlivan  
+- Esranur Avcı  
 
