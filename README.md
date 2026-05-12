@@ -94,6 +94,7 @@ AracKiralamaSistemi-master/
 
 Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
 
-## 👩‍💻 Geliştirici
+## 👩‍💻 Geliştiriciler
 
-Şilan Pehlivan
+Bu proje, **Yazılım Mühendisliği** dersi kapsamında Şilan Pehlivan ve Esranur Avcı tarafından geliştirilmiştir.
+
