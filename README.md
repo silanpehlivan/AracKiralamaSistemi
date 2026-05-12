@@ -1,10 +1,12 @@
 🚗 Araç Kiralama Yönetim Sistemi (AracK1)
+---
 
 Bu proje, yazılım mühendisliği disiplinleri temel alınarak geliştirilmiş, uçtan uca araç kiralama süreçlerini yöneten masaüstü tabanlı bir otomasyon sistemidir. Sistem, akademik standartlara uygun olarak V-Modeli (Doğrulama ve Onaylama) yaklaşımı ile tasarlanmış ve geliştirilmiştir.
 
 ---
 
 🎯 Projenin Amacı
+---
 
 Bu projenin temel amacı, araç kiralama işletmelerinin operasyonel süreçlerini dijitalleştirerek daha verimli ve yönetilebilir bir yapı oluşturmaktır.
 
@@ -18,6 +20,7 @@ Bu kapsamda:
 ---
 
 📚 Temel Özellikler
+---
 
 ## 👤 Kullanıcı Modülü
 
@@ -37,6 +40,7 @@ Bu kapsamda:
 ---
 
 ⚙️ Teknik Detaylar
+---
 
 | Özellik | Açıklama |
 |----------|----------|
@@ -50,6 +54,7 @@ Bu kapsamda:
 ---
 
 💻 Implementasyon Detayları
+---
 
 Proje katmanlı mimari ile geliştirilmiş olup iş mantığı, veri erişimi ve arayüz katmanları birbirinden ayrılmıştır.
 
@@ -58,6 +63,7 @@ Tüm kritik işlemler unit testler ile doğrulanmakta ve sistem güvenilirliği 
 ---
 
 🚀 Kurulum ve Çalıştırma
+---
 
 1. Projeyi indirip klasöre çıkarın  
 2. `AracKiralamaSistemi.sln` dosyasını Visual Studio ile açın  
@@ -68,8 +74,9 @@ Tüm kritik işlemler unit testler ile doğrulanmakta ve sistem güvenilirliği 
 ---
 
 📂 Proje Yapısı
+---
 
-```
+```text
 AracKiralamaSistemi-master/
 ├── AracK1/
 │   ├── BusinessLogic/
@@ -83,12 +90,10 @@ AracKiralamaSistemi-master/
 
 ---
 
-📜 Lisans
+## 📜 Lisans
 
-Bu proje MIT Lisansı kapsamında lisanslanmıştır. Detaylar LICENSE dosyasında yer almaktadır.
+Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
 
----
-
-👩‍💻 Yazar
+## 👩‍💻 Geliştirici
 
 Şilan Pehlivan
