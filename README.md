@@ -2,18 +2,33 @@
 
 # Araç Kiralama Yönetimi
 
-**Rezervasyon ve filo operasyonları**
+### Araç seçiminden rezervasyona uzanan bir deneyim.
 
-![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
-![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0891b2?style=flat-square)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-7c3aed?style=flat-square)
-[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+![C#](https://img.shields.io/badge/C%23-2563eb?style=for-the-badge)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0891b2?style=for-the-badge)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-7c3aed?style=for-the-badge)
+[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
 
 Araç kiralama süreçlerini kullanıcı ve yönetici modülleriyle ele alan, V-Modeli yaklaşımıyla geliştirilmiş masaüstü projesi.
+
+**Rezervasyon ve filo operasyonları**
+
+[Projeyi keşfet](https://github.com/silanpehlivan/AracKiralamaSistemi/tree/master) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
 
 </div>
 
 ---
+
+## İçeride neler var?
+
+- **01** · Rezervasyon ve tarih bazlı müsaitlik
+- **02** · Filo, kullanıcı ve geri bildirim yönetimi
+- **03** · Ödeme simülasyonu, raporlama ve MSTest çalışmaları
+
+## Projeyi çalıştırmak ve incelemek
+
+<details>
+<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
 
 ## Öne Çıkanlar
 
@@ -25,23 +40,22 @@ Araç kiralama süreçlerini kullanıcı ve yönetici modülleriyle ele alan, V-
 
 C# · Windows Forms · SQL Server
 
-## Teknik yaklaşım
+### Teknik yaklaşım
 
 Forms, BusinessLogic, Data ve Models dizinleri kullanıcı etkileşimi, işlem mantığı ve veri erişimini ayırır. MSTest dosyaları kullanıcı ve ödeme akışlarının incelenmesine olanak verir.
 
-## Kodu incelemeye başlayın
+### Kodu incelemeye başlayın
 
 - [AracK1.Tests/UnitTest1.cs](AracK1.Tests/UnitTest1.cs)
 - [AracK1.Tests1.0/KullaniciTestleri.cs](AracK1.Tests1.0/KullaniciTestleri.cs)
 - [AracK1/Program.cs](AracK1/Program.cs)
 - [TestProject1/KullaniciTestleri.cs](TestProject1/KullaniciTestleri.cs)
 
-## Kapsam ve sınırlar
+### Kapsam ve sınırlar
 
 Ödeme akışı simülasyondur. Test dosyalarının bulunması güncel çalıştırmanın başarılı olduğunu veya ölçülmüş kapsam oranını göstermez.
 
-<details>
-<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
+
 
 Bu proje, yazılım mühendisliği disiplinleri temel alınarak geliştirilmiş, uçtan uca araç kiralama süreçlerini yöneten masaüstü tabanlı bir otomasyon sistemidir. Sistem, akademik standartlara uygun olarak V-Modeli (Doğrulama ve Onaylama) yaklaşımı ile tasarlanmış ve geliştirilmiştir.
 
@@ -131,6 +145,8 @@ AracKiralamaSistemi-master/
 ```
 
 ---
+
+
 
 
 </details>
