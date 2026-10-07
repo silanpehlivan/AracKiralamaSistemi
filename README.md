@@ -25,6 +25,21 @@ Araç kiralama süreçlerini kullanıcı ve yönetici modülleriyle ele alan, V-
 
 C# · Windows Forms · SQL Server
 
+## Teknik yaklaşım
+
+Forms, BusinessLogic, Data ve Models dizinleri kullanıcı etkileşimi, işlem mantığı ve veri erişimini ayırır. MSTest dosyaları kullanıcı ve ödeme akışlarının incelenmesine olanak verir.
+
+## Kodu incelemeye başlayın
+
+- [AracK1.Tests/UnitTest1.cs](AracK1.Tests/UnitTest1.cs)
+- [AracK1.Tests1.0/KullaniciTestleri.cs](AracK1.Tests1.0/KullaniciTestleri.cs)
+- [AracK1/Program.cs](AracK1/Program.cs)
+- [TestProject1/KullaniciTestleri.cs](TestProject1/KullaniciTestleri.cs)
+
+## Kapsam ve sınırlar
+
+Ödeme akışı simülasyondur. Test dosyalarının bulunması güncel çalıştırmanın başarılı olduğunu veya ölçülmüş kapsam oranını göstermez.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
