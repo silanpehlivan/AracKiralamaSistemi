@@ -114,7 +114,7 @@ Bu kapsamda:
 
 Proje katmanlı mimari ile geliştirilmiş olup iş mantığı, veri erişimi ve arayüz katmanları birbirinden ayrılmıştır.
 
-Tüm kritik işlemler unit testler ile doğrulanmakta ve sistem güvenilirliği artırılmaktadır.
+Depoda kullanıcı ve ödeme işlemleri için test dosyaları bulunur; güncel test sonuçları ayrıca çalıştırılarak doğrulanmalıdır.
 
 ---
 
@@ -122,7 +122,7 @@ Tüm kritik işlemler unit testler ile doğrulanmakta ve sistem güvenilirliği 
 ---
 
 1. Projeyi indirip klasöre çıkarın  
-2. `AracKiralamaSistemi.sln` dosyasını Visual Studio ile açın  
+2. `AracK1.sln` dosyasını Visual Studio ile açın  
 3. `SqlHelper.cs` içindeki connection string’i düzenleyin  
 4. Veritabanını oluşturun (aracKiralamaSistemi)  
 5. Projeyi derleyip F5 ile çalıştırın  
@@ -141,7 +141,7 @@ AracKiralamaSistemi-master/
 │   ├── Models/
 │   └── Resources/
 ├── TestProject1/
-└── AracKiralamaSistemi.sln
+└── AracK1.sln
 ```
 
 ---
